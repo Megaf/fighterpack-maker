@@ -25,7 +25,7 @@ clone() { # Download using git
 
 sync() {
     echo "=> COPYING $from TO $dst"
-    rsync -a --progress "$from" "$dst/" # Move aircraft from original repo to $dst
+    rsync -a "$from" "$dst/" # Move aircraft from original repo to $dst
 }
 
 # END OF FUNCTIONS
