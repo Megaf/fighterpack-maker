@@ -3,7 +3,7 @@
 # fighterpack-maker.sh by Megaf (https://github.com/Megaf)
 # This script will download aircraft, or stuff from Git and copy them to where $dst is set.
 
-dst="$HOME/Downloads" tmp="$dst/tmp_downloads" # Where things will be downloaded to
+dst="$HOME/Downloads/Aircraft" tmp="$dst/tmp_downloads" # Where things will be downloaded to
 
 # FUNCTIONS
 cln_var() {
